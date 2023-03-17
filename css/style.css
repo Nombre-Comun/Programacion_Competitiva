@@ -449,10 +449,20 @@ img {
 
 
 /* Inicio del Login*/
-.contenido-login{
-  justify-content: center;
-  text-align: center;
+@media (min-width: 768px){
+  .formulario-login{
+    width: 800px;
+    padding-right: 20px;
+    margin-left: 20rem;
+  }
+  .contenido-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }  
 }
+
 @media (min-width: 768px){
   .contenido-login{
     justify-content: center;
