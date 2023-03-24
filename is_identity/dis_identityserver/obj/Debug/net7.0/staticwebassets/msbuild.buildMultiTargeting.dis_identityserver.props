@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\dis_identityserver.props" />
+</Project>
