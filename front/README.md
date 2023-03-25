@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+## Important
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The 'npm start' script runs with ssh cert, please follow the next web to install it in a folder name 'reactcer' in the root folder https://www.makeuseof.com/create-react-app-ssl-https/. ty makeuseof
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### 'npm install'
+
+To install dependencies and create node_modules folder.
 
 ### `npm start`
 
