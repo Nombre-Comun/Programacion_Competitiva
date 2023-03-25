@@ -12,9 +12,9 @@ namespace dis_identityserver
 
         public static IEnumerable<ApiResource> ApiResources => new[]
         {
-            new ApiResource("weatherapi")
+            new ApiResource("ms_general")
             {
-                Scopes = new List<string> { "weather.read", "weather.write", "weather.delete" },
+                Scopes = new List<string> { "ms_general.read", "ms_general.write", "ms_general.delete" },
                 ApiSecrets = new List<Secret> { new Secret("secret".Sha256())}
             }
         };
@@ -28,9 +28,9 @@ namespace dis_identityserver
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
             {
-                new ApiScope(name: "weather.read",   displayName: "Read your data."),
-                new ApiScope(name: "weather.write",  displayName: "Write your data."),
-                new ApiScope(name: "weather.delete", displayName: "Delete your data.")
+                new ApiScope(name: "ms_general.read",   displayName: "Read your data."),
+                new ApiScope(name: "ms_general.write",  displayName: "Write your data."),
+                new ApiScope(name: "ms_general.delete", displayName: "Delete your data.")
             };
 
         public static IEnumerable<Client> Clients =>
@@ -42,7 +42,7 @@ namespace dis_identityserver
                     ClientSecrets = { new Secret("secret".Sha256()) },
 
                     AllowedGrantTypes = GrantTypes.Code,
-                    AllowedScopes = { "weather.read", IdentityServerConstants.StandardScopes.OpenId,
+                    AllowedScopes = { "ms_general.read", IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile,
                     IdentityServerConstants.StandardScopes.Email},
                     RedirectUris={ "https://localhost:3000/callback" },

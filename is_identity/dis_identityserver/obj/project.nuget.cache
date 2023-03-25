@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YD+RXEO449TVt/HfXsemjs6v3a4s/znGHawyGudSKlHdwLhfMVgGn2YkaEqZCGGu7tEjJGQiffYwxaT76yheHw==",
+  "dgSpecHash": "a1GANMBT577PCbHo69gsdWVyQ3Ch0FYzUZ7tFJ3coGcagVxx4VdUWfBAiM9AMJ2EW8BqdHSZoK2Q3Kb9kGBVJA==",
   "success": true,
-  "projectFilePath": "D:\\VS\\source\\frontend-react\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
+  "projectFilePath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camil\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\camil\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

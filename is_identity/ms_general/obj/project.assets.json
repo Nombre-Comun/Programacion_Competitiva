@@ -878,11 +878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS\\source\\frontend-react\\is_identity\\ms_general\\ms_general.csproj",
+      "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_general\\ms_general.csproj",
       "projectName": "ms_general",
-      "projectPath": "D:\\VS\\source\\frontend-react\\is_identity\\ms_general\\ms_general.csproj",
+      "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_general\\ms_general.csproj",
       "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "D:\\VS\\source\\frontend-react\\is_identity\\ms_general\\obj\\",
+      "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_general\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",

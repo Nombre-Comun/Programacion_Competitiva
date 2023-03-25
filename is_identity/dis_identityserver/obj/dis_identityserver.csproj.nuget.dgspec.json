@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VS\\source\\frontend-react\\is_identity\\dis_identityserver\\dis_identityserver.csproj": {}
+    "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\dis_identityserver\\dis_identityserver.csproj": {}
   },
   "projects": {
-    "D:\\VS\\source\\frontend-react\\is_identity\\dis_identityserver\\dis_identityserver.csproj": {
+    "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\dis_identityserver\\dis_identityserver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VS\\source\\frontend-react\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
+        "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
         "projectName": "dis_identityserver",
-        "projectPath": "D:\\VS\\source\\frontend-react\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
+        "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
         "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "D:\\VS\\source\\frontend-react\\is_identity\\dis_identityserver\\obj\\",
+        "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\dis_identityserver\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",

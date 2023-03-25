@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options => {
         options.Authority = "https://localhost:7003";
-        options.Audience = "weatherapi";
+        options.Audience = "ms_general";
 
         options.TokenValidationParameters.ValidTypes = new[] { "at+jwt" };
     });
