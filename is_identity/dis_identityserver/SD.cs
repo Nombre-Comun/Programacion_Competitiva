@@ -38,9 +38,15 @@ namespace dis_identityserver
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope>
             {
-                new ApiScope(name: "ms_general.read",   displayName: "Read your data."),
-                new ApiScope(name: "ms_general.write",  displayName: "Write your data."),
-                new ApiScope(name: "ms_general.delete", displayName: "Delete your data.")
+                new ApiScope(name: "ms_general.read",   displayName: "(general) Read your data."),
+                new ApiScope(name: "ms_general.write",  displayName: "(general) Write your data."),
+                new ApiScope(name: "ms_general.delete", displayName: "(general) Delete your data."),
+                new ApiScope(name: "ms_practice.read",   displayName: "(practice) Read your data."),
+                new ApiScope(name: "ms_practice.write",  displayName: "(practice) Write your data."),
+                new ApiScope(name: "ms_practice.delete", displayName: "(practice) Delete your data."),
+               new ApiScope(name: "ms_learn.read",   displayName: "(learn) Read your data."),
+                new ApiScope(name: "ms_learn.write",  displayName: "(learn) Write your data."),
+                new ApiScope(name: "ms_learn.delete", displayName: "(learn) Delete your data."),
             };
 
         public static IEnumerable<Client> Clients =>
