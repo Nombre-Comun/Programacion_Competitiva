@@ -52,7 +52,8 @@ namespace dis_identityserver
                     ClientSecrets = { new Secret("secret".Sha256()) },
 
                     AllowedGrantTypes = GrantTypes.Code,
-                    AllowedScopes = { "ms_general.read", 
+                    AllowedScopes = { 
+                        "ms_general.read", 
                         "ms_practice.read", 
                         "ms_practice.write", 
                         "ms_learn.read",
