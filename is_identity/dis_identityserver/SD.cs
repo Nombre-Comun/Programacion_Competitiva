@@ -16,6 +16,16 @@ namespace dis_identityserver
             {
                 Scopes = new List<string> { "ms_general.read", "ms_general.write", "ms_general.delete" },
                 ApiSecrets = new List<Secret> { new Secret("secret".Sha256())}
+            },
+            new ApiResource("ms_practice")
+            {
+                Scopes = new List<string> { "ms_practice.read", "ms_practice.write", "ms_practice.delete" },
+                ApiSecrets = new List<Secret> { new Secret("secret".Sha256())}
+            },
+            new ApiResource("ms_learn")
+            {
+                Scopes = new List<string> { "ms_learn.read", "ms_learn.write", "ms_learn.delete" },
+                ApiSecrets = new List<Secret> { new Secret("secret".Sha256())}
             }
         };
         public static IEnumerable<IdentityResource> IdentityResources =>
