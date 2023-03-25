@@ -52,9 +52,13 @@ namespace dis_identityserver
                     ClientSecrets = { new Secret("secret".Sha256()) },
 
                     AllowedGrantTypes = GrantTypes.Code,
-                    AllowedScopes = { "ms_general.read", IdentityServerConstants.StandardScopes.OpenId,
-                    IdentityServerConstants.StandardScopes.Profile,
-                    IdentityServerConstants.StandardScopes.Email},
+                    AllowedScopes = { "ms_general.read", 
+                        "ms_practice.read", 
+                        "ms_practice.write", 
+                        "ms_learn.read",
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email},
                     RedirectUris={ "https://localhost:3000/callback" },
                     PostLogoutRedirectUris={ "https://localhost:3000/" }
 
