@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z25el3ikjXH9TfWUPd8fewiljJPTJ64DdvKwIMjBUMg+ZBzAvsgG1Mw5W9Wg306jxAT1jRggRaocchsO52KlLg==",
+  "dgSpecHash": "g4QlkJgtmHjUzzE2FYc11bpssXsMmKDvN4aorfQs5ySe4H13feilQ9PwJuMYbw3ZF+A/Ct3fT5ufsfx1ZRepkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_practice\\ms_practice.csproj",
+  "projectFilePath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_practice\\ms_practice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camil\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
     "C:\\Users\\camil\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

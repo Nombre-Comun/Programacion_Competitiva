@@ -846,11 +846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_practice\\ms_practice.csproj",
+      "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_practice\\ms_practice.csproj",
       "projectName": "ms_practice",
-      "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_practice\\ms_practice.csproj",
+      "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_practice\\ms_practice.csproj",
       "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_practice\\obj\\",
+      "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
