@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj": {}
+    "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj": {}
   },
   "projects": {
-    "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj",
         "projectName": "ms_general",
-        "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj",
-        "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\ms_general.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Documentos\\GitHub\\Programacion_Competitiva\\is_identity\\ms_general\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
