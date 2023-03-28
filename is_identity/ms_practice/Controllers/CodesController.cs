@@ -26,8 +26,8 @@ namespace ms_practice.Controllers
         {
             _httpClient.BaseAddress = new Uri("https://api.jdoodle.com/");
             var data = new { 
-                clientId = "90ea5f4576609a4f4ec9dee087e9ec80",
-                clientSecret = "6cdc7290f0e1b67d29e467274b5c7a8cc030651d03188b13c196cd531d7397d8",
+                clientId = "",
+                clientSecret = "",
                 script = "print(\"Hola, mundo!\")\r\n",
                 stdin = "",
                 language = "python2",
@@ -58,8 +58,8 @@ namespace ms_practice.Controllers
             _httpClient.BaseAddress = new Uri("https://api.jdoodle.com/");
             var data = new
             {
-                clientId = "90ea5f4576609a4f4ec9dee087e9ec80",
-                clientSecret = "6cdc7290f0e1b67d29e467274b5c7a8cc030651d03188b13c196cd531d7397d8",
+                clientId = "",
+                clientSecret = "",
                 script = request.Script,
                 stdin = request.Stdin,
                 language = "python2",
