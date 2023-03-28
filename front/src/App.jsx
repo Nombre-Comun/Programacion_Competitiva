@@ -4,6 +4,7 @@ import HomePage from './components/pages/public/Homepage/HomePage';
 import Login from './components/account/Login';
 import Callback from './components/account/callback';
 import Logout from './components/account/Logout';
+import Editor from './components/pages/private/Editor';
 
 function App (){
   return (
@@ -14,6 +15,7 @@ function App (){
           <Route path="/login" element={<Login />} />
           <Route path="/callback" element={<Callback />} />
           <Route path="/logout" element={<Logout />} />
+          <Route path="/editor" element={<Editor />} />
         </Routes>
       </div>
     </BrowserRouter>

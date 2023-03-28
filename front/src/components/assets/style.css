@@ -150,6 +150,11 @@ img {
   padding-left: 2rem;
 }
 
+.compiler_editor{
+  width: 100%;
+  height: 400px;
+}
+
 .logo {
   color: var(--blanco);
   margin: 0;

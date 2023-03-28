@@ -9,14 +9,13 @@ function Header(props){
                 <div className="contenedor">
                     <div className="barra">
                         <Link className="logo__header" to="/">
-                            <a href="index.html" className="logo no-margin centrar-texto">
-                                <h1 className="logo__nombre no-margin">
-                                Cundi<span className="logo__bold">Code</span>
-                                </h1>
-                            </a>
+                            <h1 className="logo__nombre no-margin">
+                            Cundi<span className="logo__bold">Code</span>
+                            </h1>
                         </Link>
                         <nav className="navegacion">
                             <Link className="navegacion__enlace" to="/">Nosotros</Link>
+                            <Link className="navegacion__enlace" to="/editor">Editor</Link>
                             <Link className="navegacion__enlace" to="/">Conceptos</Link>
                             <Link className="navegacion__enlace" to="/">Contacto</Link>
                             {props.user ? (
