@@ -1,8 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+#Front 
 # dependencies
-/node_modules
-/reactcert
+front/node_modules
+front/reactcert
 /.pnp
 .pnp.js
 
@@ -10,7 +10,7 @@
 /coverage
 
 # production
-/build
+front/build
 
 # misc
 .DS_Store
@@ -22,3 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#is_identity
+is_identity/ms_practice/appsettings.json
