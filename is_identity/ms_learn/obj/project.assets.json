@@ -878,11 +878,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_learn\\ms_learn.csproj",
+      "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_learn\\ms_learn.csproj",
       "projectName": "ms_learn",
-      "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_learn\\ms_learn.csproj",
+      "projectPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_learn\\ms_learn.csproj",
       "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\ms_learn\\obj\\",
+      "outputPath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\ms_learn\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",

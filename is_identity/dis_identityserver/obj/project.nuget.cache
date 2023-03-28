@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a1GANMBT577PCbHo69gsdWVyQ3Ch0FYzUZ7tFJ3coGcagVxx4VdUWfBAiM9AMJ2EW8BqdHSZoK2Q3Kb9kGBVJA==",
+  "dgSpecHash": "AE2gsd0ScXaoxmapihVNURoF2ab8LtrYIeexksiOAv0xQ7/Gi3n5a1CI3IbyLjrkbCu97pWIZeoAMnz7feymQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Proyecto_F\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
+  "projectFilePath": "C:\\Users\\camil\\OneDrive\\Documents\\GitHub\\Programacion_Competitiva\\is_identity\\dis_identityserver\\dis_identityserver.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camil\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\camil\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
