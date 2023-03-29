@@ -14,10 +14,11 @@ namespace ms_practice.Controllers
     public class CodesController : ControllerBase
     {
         private readonly HttpClient _httpClient;
-
-        public CodesController()
+        private readonly IConfiguration _configuration;
+        public CodesController(IConfiguration configuration)
         {
             _httpClient = new HttpClient();
+            _configuration = configuration;
         }
 
         // GET: api/<CodesController>
@@ -26,8 +27,8 @@ namespace ms_practice.Controllers
         {
             _httpClient.BaseAddress = new Uri("https://api.jdoodle.com/");
             var data = new { 
-                clientId = "",
-                clientSecret = "",
+                clientId = _configuration.GetSection("JDoodleAPIKeys")["ClientId"],
+                clientSecret = _configuration.GetSection("JDoodleAPIKeys")["ClientSecret"],
                 script = "print(\"Hola, mundo!\")\r\n",
                 stdin = "",
                 language = "python2",
@@ -58,11 +59,11 @@ namespace ms_practice.Controllers
             _httpClient.BaseAddress = new Uri("https://api.jdoodle.com/");
             var data = new
             {
-                clientId = "",
-                clientSecret = "",
+                clientId = _configuration.GetSection("JDoodleAPIKeys")["ClientId"],
+                clientSecret = _configuration.GetSection("JDoodleAPIKeys")["ClientSecret"],
                 script = request.Script,
                 stdin = request.Stdin,
-                language = "python2",
+                language = request.Language,
                 versionIndex = "0",
                 compileOnly = false,
             };
