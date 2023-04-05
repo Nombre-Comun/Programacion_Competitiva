@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../../styles/style.css';
+//import '../../../styles/style.css';
 import { getAuthenticatedUser } from '../../../config/ConfigIdentity';
 import Header from './Header';
 

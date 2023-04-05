@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_JDK 1.8.0_66JDK 9.0.1JDK 10.0.1JDK 1_91b7f3</name>
+   <tag></tag>
+   <elementGuidId>5e42c870-a46b-4677-b4fa-9909121fd163</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/form/select[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>687df690-a77f-4ef9-ae66-bde52e7169d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JDK 1.8.0_66JDK 9.0.1JDK 10.0.1JDK 11.0.4JDK 17.0.1</value>
+      <webElementGuid>8061381b-3e53-4846-8cf4-79fe714ff93c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row row-cols-1 row-cols-md-2 g-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/select[3]</value>
+      <webElementGuid>850075f7-6cdb-480d-9d8a-9cbbd42232b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/form/select[3]</value>
+      <webElementGuid>ee988feb-8e99-4bea-a0dd-81245c316c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expected Output'])[1]/following::select[3]</value>
+      <webElementGuid>97e1ad7b-efba-463a-8b03-9d601b5704bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::select[3]</value>
+      <webElementGuid>cfe39413-7723-47b5-9c05-066849f3acda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar'])[1]/preceding::select[1]</value>
+      <webElementGuid>508a0f65-a6d8-47bf-8fdc-50e48dabf6cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[3]</value>
+      <webElementGuid>64edd806-4f3c-4027-b184-ae230d71763a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'JDK 1.8.0_66JDK 9.0.1JDK 10.0.1JDK 11.0.4JDK 17.0.1' or . = 'JDK 1.8.0_66JDK 9.0.1JDK 10.0.1JDK 11.0.4JDK 17.0.1')]</value>
+      <webElementGuid>75d587ab-fcf9-4716-9cc7-0b23c629d484</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

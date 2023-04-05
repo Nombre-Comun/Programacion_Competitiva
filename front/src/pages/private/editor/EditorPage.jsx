@@ -165,6 +165,7 @@ function Editor() {
                 <div className="col">
                     <div className="card">
                         <div className="card-body">
+                            <button className='btn btn-outline-danger'>asdf</button>
                             <h5 className="card-title">Description</h5>
                             <br />
                             <div className="card-body">

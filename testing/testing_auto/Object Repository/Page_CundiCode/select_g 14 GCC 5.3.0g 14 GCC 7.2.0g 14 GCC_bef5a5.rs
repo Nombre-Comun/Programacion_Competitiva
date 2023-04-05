@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_g 14 GCC 5.3.0g 14 GCC 7.2.0g 14 GCC_bef5a5</name>
+   <tag></tag>
+   <elementGuidId>afd042cf-82eb-4e98-936a-df3b8e3e65cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/form/select[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>e3c72383-c607-4dd6-82d1-674e698c8109</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>g++ 14 GCC 5.3.0g++ 14 GCC 7.2.0g++ 14 GCC 8.1.0g++ 14 GCC 9.1.0GCC 11.1.0</value>
+      <webElementGuid>cee3f1a2-6a20-4e05-9fbc-6846a38757cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row row-cols-1 row-cols-md-2 g-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/form[1]/select[3]</value>
+      <webElementGuid>bda2efd7-2463-4d99-bf1a-c455a330c12f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/form/select[3]</value>
+      <webElementGuid>c535cb3a-e9e0-4367-9a11-795407bce15e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expected Output'])[1]/following::select[3]</value>
+      <webElementGuid>77d2b4d1-2830-425f-b9bf-8b767cac9e47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::select[3]</value>
+      <webElementGuid>2f287f64-cf95-41e7-971f-c65182a73d4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enviar'])[1]/preceding::select[1]</value>
+      <webElementGuid>10ab9441-a6c9-4e00-bcb3-a7048b2b0607</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'code', '&quot;', ')')])[1]/preceding::select[1]</value>
+      <webElementGuid>96d3ed01-602c-4bc6-9daf-17a915e2f88d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[3]</value>
+      <webElementGuid>fb3e3e8b-eeb1-4576-81c5-20031336fa76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'g++ 14 GCC 5.3.0g++ 14 GCC 7.2.0g++ 14 GCC 8.1.0g++ 14 GCC 9.1.0GCC 11.1.0' or . = 'g++ 14 GCC 5.3.0g++ 14 GCC 7.2.0g++ 14 GCC 8.1.0g++ 14 GCC 9.1.0GCC 11.1.0')]</value>
+      <webElementGuid>ef4efe5a-bdb7-4e1c-a98b-bfc2e02c23f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
