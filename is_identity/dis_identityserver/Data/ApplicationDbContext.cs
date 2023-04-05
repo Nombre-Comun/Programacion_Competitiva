@@ -11,5 +11,5 @@ namespace dis_identityserver.Data
         }
 
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
-    }   
+    }
 }
