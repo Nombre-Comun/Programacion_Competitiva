@@ -1,70 +1,92 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import { useState } from "react";
+import axios from "axios";
 
-const RegisterForm = () => {
-  const [formData, setFormData] = useState({
-    email: '',
-    password: '',
-    confirmPassword: ''
+const Register = () => {
+  const [userData, setUserData] = useState({
+    userName: "",
+    email: "",
+    phoneNumber: "",
+    name: "",
+    password: "",
   });
-  const [error, setError] = useState(null);
 
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData({ ...formData, [name]: value });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUserData((prevUserData) => ({ ...prevUserData, [name]: value }));
   };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    try {
-      await axios.post('/api/account/register', formData);
-      // Redirect or show success message
-    } catch (err) {
-      setError(err.response.data.error);
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post("https://localhost:7003/api/Register", userData)
+      .then((response) => {
+        console.log(response);
+        alert("¡Registro exitoso!");
+      })
+      .catch((error) => {
+        console.error(error.response);
+        alert("¡Error al registrar usuario!");
+      });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      {error && <div className="alert alert-danger">{error}</div>}
-      <div className="form-group">
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          className="form-control"
-          value={formData.email}
-          onChange={handleChange}
-        />
-      </div>
-      <div className="form-group">
-        <label htmlFor="password">Password</label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          className="form-control"
-          value={formData.password}
-          onChange={handleChange}
-        />
-      </div>
-      <div className="form-group">
-        <label htmlFor="confirmPassword">Confirm Password</label>
-        <input
-          type="password"
-          name="confirmPassword"
-          id="confirmPassword"
-          className="form-control"
-          value={formData.confirmPassword}
-          onChange={handleChange}
-        />
-      </div>
-      <button type="submit" className="btn btn-primary">
-        Register
-      </button>
-    </form>
+    <div>
+      <h2>Registro de Usuario</h2>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Nombre de usuario:
+          <input
+            type="text"
+            name="userName"
+            value={userData.userName}
+            onChange={handleChange}
+          />
+        </label>
+        <br />
+        <label>
+          Correo electrónico:
+          <input
+            type="email"
+            name="email"
+            value={userData.email}
+            onChange={handleChange}
+          />
+        </label>
+        <br />
+        <label>
+          Número de teléfono:
+          <input
+            type="text"
+            name="phoneNumber"
+            value={userData.phoneNumber}
+            onChange={handleChange}
+          />
+        </label>
+        <br />
+        <label>
+          Nombre completo:
+          <input
+            type="text"
+            name="name"
+            value={userData.name}
+            onChange={handleChange}
+          />
+        </label>
+        <br />
+        <label>
+          Contraseña:
+          <input
+            type="password"
+            name="password"
+            value={userData.password}
+            onChange={handleChange}
+          />
+        </label>
+        <br />
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
   );
 };
 
-export default RegisterForm;
+export default Register;

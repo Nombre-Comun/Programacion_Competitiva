@@ -1,92 +1,28 @@
-import { useState } from "react";
-import axios from "axios";
+import React, { Fragment } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
-const Register = () => {
-  const [userData, setUserData] = useState({
-    userName: "",
-    email: "",
-    phoneNumber: "",
-    name: "",
-    password: "",
-  });
+//Pages to route
+import HomePage from '../pages/public/homepage/HomePage';
+import LoginPage from '../pages/public/auth/Login';
+import LogoutPage from '../pages/public/auth/Logout';
+import Callback from '../pages/public/auth/Callback';
+import EditorPage from '../pages/private/editor/EditorPage';
+import RegisterForm from '../pages/public/auth/Register';
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setUserData((prevUserData) => ({ ...prevUserData, [name]: value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    axios
-      .post("https://localhost:5001/api/accounts/register", userData)
-      .then((response) => {
-        console.log(response);
-        alert("¡Registro exitoso!");
-      })
-      .catch((error) => {
-        console.error(error);
-        alert("¡Error al registrar usuario!");
-      });
-  };
-
+function RoutesI() {
   return (
-    <div>
-      <h2>Registro de Usuario</h2>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Nombre de usuario:
-          <input
-            type="text"
-            name="userName"
-            value={userData.userName}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Correo electrónico:
-          <input
-            type="email"
-            name="email"
-            value={userData.email}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Número de teléfono:
-          <input
-            type="text"
-            name="phoneNumber"
-            value={userData.phoneNumber}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Nombre completo:
-          <input
-            type="text"
-            name="name"
-            value={userData.name}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Contraseña:
-          <input
-            type="password"
-            name="password"
-            value={userData.password}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <button type="submit">Registrarse</button>
-      </form>
-    </div>
-  );
-};
+    <Fragment>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/logout" element={<LogoutPage />} />
+        <Route path="/callback" element={<Callback />} />
+        <Route path="/editor" element={<EditorPage />} />
+        <Route path="/register" element={<RegisterForm />} />
+      </Routes>
+    </Fragment>
 
-export default Register;
+  );
+}
+
+export default RoutesI;

@@ -27,13 +27,14 @@ function Header(){
                             <Link className="navegacion__enlace" to="/editor">Editor</Link>
                             <Link className="navegacion__enlace" to="/">Conceptos</Link>
                             <Link className="navegacion__enlace" to="/">Contacto</Link>
+                            <Link className="navegacion__enlace" to="/register">Sign up</Link>
                             {user ? (
                                 <Fragment>  
                                     <Link className="navegacion__enlace user__profile" to="/">{user.profile.name}</Link>
                                     <Link className="navegacion__enlace" to="/logout">Cerrar sesión</Link>
                                 </Fragment>
                             ) : (
-                                <Link className="navegacion__enlace" to="/login">Ingresar</Link>
+                                <Link className="navegacion__enlace" to="/login">Login</Link>
                             )}
                         </nav>
                     </div>
