@@ -32,7 +32,7 @@ function RoutesI() {
             <PrivateRoute isAuthenticated={user}>
               <EditorPage />
             </PrivateRoute>
-          }
+          } 
         />
         <Route path="/signup" element={<RegisterForm />} />
       </Routes>

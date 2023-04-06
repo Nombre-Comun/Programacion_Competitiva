@@ -1,5 +1,12 @@
-import React, { useState, Fragment, useEffect } from 'react';
+import React, { useState, Fragment } from 'react';
 import axios from 'axios';
+
+/// For AceEditor
+import AceEditor from "react-ace";
+import "ace-builds/src-noconflict/mode-java";
+import "ace-builds/src-noconflict/theme-github";
+import "ace-builds/src-noconflict/ext-language_tools";
+///
 
 function Editor() {
     function processOutput(props) {
@@ -109,24 +116,23 @@ function Editor() {
         event.preventDefault();
         var inputStdinN = processInput(inputStdin)
         console.log(`El código ingresado es: ${code}`);
-        const config = {
+        console.log(versionLang + ' ' + version);
+        const requestBody = {
             script: code,
             stdin: inputStdinN,
             language: versionLang,
-            version: version
-        }
-        console.log(version + " " + versionLang)
-        axios.post('https://localhost:7253/api/Codes',
-            JSON.stringify(config),
-            {
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                }
-            })
+            version: version.toString()
+        };
+        console.log(requestBody);
+        axios.post('https://practice-ms.azurewebsites.net/api/Codes', requestBody, {
+            headers: {
+                'accept': '*/*',
+                'Content-Type': 'application/json'
+            }
+        })
             .then(response => {
                 console.log('La compilación fue:', response.data);
-                const objeto = JSON.parse(response.data);
+                const objeto = response.data;
                 setResponseC(processOutput(objeto.output));
             })
             .catch(error => {
@@ -135,9 +141,10 @@ function Editor() {
 
     };
 
-    const handleCodeChange = (event) => {
-        setCode(event.target.value);
-    };
+    function onChangeCode(newValue) {
+        console.log("change", newValue);
+        setCode(newValue);
+    }
 
     const handleInputStdinChange = (event) => {
         setInputStdin(event.target.value);
@@ -204,10 +211,21 @@ function Editor() {
                                         </option>
                                     ))}
                                 </select>
+                                {/*
                                 <div>
                                     <label htmlFor="code"></label>
                                     <textarea className='compiler_editor' id="code" value={code} onChange={handleCodeChange} />
                                 </div>
+                                */}
+                                <AceEditor
+                                    id="code"
+                                    value={code}
+                                    mode="java"
+                                    onChange={onChangeCode}
+                                    theme="github"
+                                    name="UNIQUE_ID_OF_DIV"
+                                    editorProps={{ $blockScrolling: true }}
+                                />
                                 <div>
                                     <label htmlFor="inputStdin"></label>
                                     <textarea id="inputStdin" value={inputStdin} onChange={handleInputStdinChange} />
@@ -221,7 +239,7 @@ function Editor() {
             </div>
 
         </Fragment >
-        
+
     );
 }
 
