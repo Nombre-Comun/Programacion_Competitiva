@@ -1,35 +1,12 @@
-import { Route } from 'react-router-dom';
-import { useState, useEffect, Fragment } from 'react';
-import { getAuthenticatedUser } from '../config/ConfigIdentity';
+import React from "react";
+import { Navigate } from "react-router-dom";
 
-const PrivateRouteI = ({ component: Component, ...rest }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-  useEffect(() => {
-    // check if the user is authenticated
-    async function checkAuthentication() {
-      const user = await getAuthenticatedUser();
-      setIsAuthenticated(user !== null);
-    }
-
-    checkAuthentication();
-  }, []);
-
-  return (
-    <Fragment>
-      <Route
-        {...rest}
-        render={(props) =>
-          isAuthenticated ? (
-            <Component {...props} />
-          ) : (
-            window.location.replace('/')
-          )
-        }
-      />
-    </Fragment>
-
-  );
+const PrivateRoute = ({ children, isAuthenticated }) => {
+  if (isAuthenticated) {
+    return children;
+  } else {
+    return <Navigate to="/login" />;
+  }
 };
 
-export default PrivateRouteI;
+export default PrivateRoute;

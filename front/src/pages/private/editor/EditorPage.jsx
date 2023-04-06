@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState, Fragment, useEffect } from 'react';
 import axios from 'axios';
 
 function Editor() {
@@ -219,8 +219,9 @@ function Editor() {
                     </div>
                 </div>
             </div>
-        </Fragment >
 
+        </Fragment >
+        
     );
 }
 
