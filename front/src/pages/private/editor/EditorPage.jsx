@@ -3,12 +3,32 @@ import axios from 'axios';
 
 /// For AceEditor
 import AceEditor from "react-ace";
+// Ace Editor modes
 import "ace-builds/src-noconflict/mode-java";
+import "ace-builds/src-noconflict/mode-python";
+import "ace-builds/src-noconflict/mode-c_cpp";
+// Ace editor themes
+import "ace-builds/src-noconflict/theme-dracula";
+import "ace-builds/src-noconflict/theme-solarized_dark";
+import "ace-builds/src-noconflict/theme-tomorrow_night";
 import "ace-builds/src-noconflict/theme-github";
+import "ace-builds/src-noconflict/theme-monokai";
+import "ace-builds/src-noconflict/theme-chrome";
+
 import "ace-builds/src-noconflict/ext-language_tools";
 ///
 
 function Editor() {
+
+    const [code, setCode] = useState(''); //script
+    const [inputStdin, setInputStdin] = useState(''); //stdin
+    const [responseC, setResponseC] = useState(''); //response to show
+    const [language, setLanguage] = useState('java'); //language
+    const [versionLang, setVersionLang] = useState('java'); //version language (python2, python3...)
+    const [version, setVersion] = useState('4'); //version index language (python2 || 0)
+    const [expectedOutput] = useState(5 * 12); //expected output kk
+    const [editorLanguage, setEditorLanguage] = useState('java');
+
     function processOutput(props) {
         let nOutput = props;
         return nOutput;
@@ -28,15 +48,7 @@ function Editor() {
         console.log(nInput);
         return nInput;
     }
-
-    const [code, setCode] = useState('');
-    const [inputStdin, setInputStdin] = useState('');
-    const [responseC, setResponseC] = useState('');
-    const [language, setLanguage] = useState('java');
-    const [versionLang, setVersionLang] = useState('java');
-    const [version, setVersion] = useState('4');
-    const [expectedOutput] = useState(5 * 12);
-
+    
     const versionCode = (() => {
         switch (language) {
             case 'java':
@@ -144,7 +156,7 @@ function Editor() {
     function onChangeCode(newValue) {
         console.log("change", newValue);
         setCode(newValue);
-    }
+    };
 
     const handleInputStdinChange = (event) => {
         setInputStdin(event.target.value);
@@ -153,6 +165,15 @@ function Editor() {
     const handleLanguageChange = (event) => {
         setLanguage(event.target.value);
         setVersionLang(event.target.value);
+        if (event.target.value === 'java') {
+            setEditorLanguage('java');
+        } else {
+            if (event.target.value === 'python2') {
+                setEditorLanguage('c_cpp');
+            } else {
+                setEditorLanguage('python');
+            }
+        }
         setVersion(0);
     };
 
@@ -220,9 +241,9 @@ function Editor() {
                                 <AceEditor
                                     id="code"
                                     value={code}
-                                    mode="java"
+                                    mode={editorLanguage}
                                     onChange={onChangeCode}
-                                    theme="github"
+                                    theme="monokai"
                                     name="UNIQUE_ID_OF_DIV"
                                     editorProps={{ $blockScrolling: true }}
                                 />
