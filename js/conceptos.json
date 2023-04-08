@@ -1,0 +1,32 @@
+{
+    "items":[
+        {
+        "id":"1",
+        "imagen":"./img/curso3.png",
+        "titulo":"Notacion Big 0",
+        "categoria":"Herramientas Lógicas",
+        "complejidad":"Algoritmos de Programación",
+        "descripcion":"La programación recursiva es un enfoque de resolución de problemas\nen el que una función se llama a sí misma repetidamente hasta que se\nalcanza una condición de salida. La idea fundamental es dividir un\nproblema en subproblemas más pequeños que se resuelven de manera\nsimilar, hasta que se llega a un subproblema lo suficientemente\nsimple como para que se pueda resolver directamente",
+        "descripcion2":"En programación competitiva, es importante diseñar algoritmos que sean eficientes en términos de tiempo y memoria, ya que los problemas pueden tener restricciones de tiempo y memoria muy estrictas. La notación Big O se utiliza para describir la eficiencia de los algoritmos en términos de su complejidad temporal y espacial, lo que permite a los programadores evaluar la calidad de sus soluciones y comparar diferentes algoritmos."
+        },
+        {
+            "id":"2",
+            "imagen":"./img/curso1.png",
+            "titulo":"Programación Recursiva",
+            "categoria":"Herramientas Lógicas",
+            "complejidad":"Algoritmos de Programación",
+            "descripcion":"La programación recursiva es un enfoque de resolución de problemas\nen el que una función se llama a sí misma repetidamente hasta que se\nalcanza una condición de salida. La idea fundamental es dividir un\nproblema en subproblemas más pequeños que se resuelven de manera\nsimilar, hasta que se llega a un subproblema lo suficientemente\nsimple como para que se pueda resolver directamente.",
+            "descripcion2":"La recursión se puede utilizar para implementar una amplia variedad de algoritmos, como la búsqueda binaria, la exploración de árboles y grafos, y la resolución de problemas de combinación y permutación."
+        },
+        {
+
+            "id":"3",
+            "imagen":"./img/curso2.png",
+            "titulo":"Dijkstra y El Camino Más Corto",
+            "categoria":"Herramientas Lógicas",
+            "complejidad":"O(E + V log V)",
+            "descripcion":"El algoritmo de Dijkstra es un algoritmo de búsqueda de caminos más\ncortos en un grafo dirigido o no dirigido con pesos no negativos.\nFue desarrollado por el científico de la computación holandés Edsger\nW. Dijkstra en 1956"
+            ,"descripcion2":"Dijkstra es muy útil en aplicaciones que requieren encontrar el camino más corto entre dos vértices en un grafo, como en la planificación de rutas de transporte o en la optimización de redes de comunicación. La complejidad temporal del algoritmo de Dijkstra depende del tipo de estructura de datos utilizada para implementar la cola de prioridad, pero puede ser O((E + V) log V) o O(E + V log V) en el peor de los casos, donde E es el número de aristas y V es el número de vértices en el grafo)"
+        }
+    ]
+}
