@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 //import '../../../styles/style.css';
 import { getAuthenticatedUser } from '../../../config/ConfigIdentity';
 import Header from './Header';
+import Navigator from '../../../components/Navigator';
 
 const HomePage = () => {
   const [user, setUser] = useState(null);
@@ -16,7 +17,7 @@ const HomePage = () => {
 
   return (
     <div className='homepage'>
-      <Header/> 
+      <Navigator />
     </div>
   );
 };
