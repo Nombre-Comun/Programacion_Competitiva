@@ -30,35 +30,14 @@ function Editor() {
     const [expectedOutput] = useState(5 * 12); //expected output kk
     const [editorLanguage, setEditorLanguage] = useState('java');
 
-    function processOutput(props) {
-        let nOutput = props;
-        return nOutput;
-    }
-
-    function processInput(props) {
-        let lines = props.split('\n');
-        let nInput = '';
-        for (let i = 0; i < lines.length; i++) {
-            let nInputI = JSON.stringify(lines[i]);
-            if (i === lines.length - 1) {
-                nInput = nInput + nInputI;
-            } else {
-                nInput = nInput + nInputI + "\n";
-            }
-        }
-        console.log(props);
-        return props;
-    }
-
     const handleSubmit = (event) => {
 
         event.preventDefault();
-        var inputStdinN = processInput(inputStdin)
         console.log(`El código ingresado es: ${code}`);
         console.log(language + ' ' + version);
         const requestBody = {
             script: code,
-            stdin: inputStdinN,
+            stdin: inputStdin,
             language: language,
             version: version.toString()
         };
@@ -72,7 +51,7 @@ function Editor() {
             .then(response => {
                 console.log('La compilación fue:', response.data);
                 const objeto = response.data;
-                setResponseC(processOutput(objeto.output));
+                setResponseC(objeto.output);
             })
             .catch(error => {
                 console.error('Hubo un error:', error);

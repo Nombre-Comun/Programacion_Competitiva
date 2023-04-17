@@ -9,6 +9,8 @@ import Callback from '../pages/public/auth/Callback';
 import EditorPage from '../pages/private/editor/EditorPage';
 import RegisterForm from '../pages/public/auth/Register';
 import PrivateRoute from '../components/PrivateRouteI';
+import ExercisesPage from '../pages/public/exercises/ExercisesPage';
+import Exercise from '../pages/private/exercise/ExercisePage';
 
 function RoutesI() {
   const [user, setUser] = useState('');
@@ -26,6 +28,8 @@ function RoutesI() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/logout" element={<LogoutPage />} />
         <Route path="/callback" element={<Callback />} />
+        <Route path='/exercises' element={<ExercisesPage />} />
+        <Route path="/exercise/:id" element={<Exercise />} />
         <Route
           path="/editor"
           element={
