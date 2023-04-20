@@ -8,31 +8,33 @@ function App() {
     return (
         <Fragment>
             <Navigator />
-            <h1>Exercises</h1>
-            <pre>{JSON.stringify(exercises, null, 2)}</pre>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Description</th>
-                        <th>Difficulty Level</th>
-                        <th>Categories</th>
-                        <th>Last Update</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {exercises.map((item) => (
-                        <tr key={item.id}>
-                            <td>{item.Title}</td>
-                            <td>{item.Description}</td>
-                            <td>{item.DifficultyLevel}</td>
-                            <td>{item.Categories}</td>
-                            <td>{item.LastUpdated}</td>
-                            <td><Link to="/exercise/2">Exercise {item.Id}</Link></td>
+            <div className='container'>
+                <h1>Exercises</h1>
+                <table className='table'>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Difficulty Level</th>
+                            <th>Categories</th>
+                            <th>Last Update</th>
+                            <th>Get</th>
                         </tr>
-                    ))}
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        {exercises.map((item) => (
+                            <tr key={item.Id}>
+                                <td>{item.Title}</td>
+                                <td>{item.Description}</td>
+                                <td>{item.DifficultyLevel}</td>
+                                <td>{item.Categories}</td>
+                                <td>{item.LastUpdated}</td>
+                                <td><Link to={"/exercise/" + item.Id}>Exercise {item.Id}</Link></td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
         </Fragment>
     );
 }

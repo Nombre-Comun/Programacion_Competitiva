@@ -40,7 +40,7 @@ function Navigator() {
                                     </a>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li>
-                                            <Link className="dropdown-item" to="/">Nosotros</Link>
+                                            <Link className="dropdown-item" to="/NewExercise">New Exercise</Link>
                                         </li>
                                         <li>
                                             <Link className="dropdown-item" to="/">Contacto</Link>

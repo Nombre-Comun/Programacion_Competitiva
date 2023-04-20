@@ -11,6 +11,7 @@ import RegisterForm from '../pages/public/auth/Register';
 import PrivateRoute from '../components/PrivateRouteI';
 import ExercisesPage from '../pages/public/exercises/ExercisesPage';
 import Exercise from '../pages/private/exercise/ExercisePage';
+import NewExercise from '../pages/private/newExercise/NewExercisePage';
 
 function RoutesI() {
   const [user, setUser] = useState('');
@@ -35,6 +36,14 @@ function RoutesI() {
           element={
             <PrivateRoute isAuthenticated={user}>
               <EditorPage />
+            </PrivateRoute>
+          } 
+        />
+        <Route
+          path="/NewExercise"
+          element={
+            <PrivateRoute isAuthenticated={user}>
+              <NewExercise/>
             </PrivateRoute>
           } 
         />
