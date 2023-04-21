@@ -11,7 +11,6 @@ function Exercise() {
     const { id } = useParams();
     const exercise = GetExercise(id);
     const examples = exercise.Examples;
-
     return (
         <Fragment>
             <Navigator />
@@ -48,7 +47,7 @@ function Exercise() {
                 <div className="col">
                     <div className="card">
                         <div className="card-body">
-                            <Editor solutionTemplate={exercise.SolutionTemplate} />
+                            <Editor solutionTemplate={exercise.SolutionTemplate} id={id}/>
                         </div>
                     </div>
                 </div>

@@ -46,14 +46,14 @@ export function SetNewExercise(newExercise) {
     });
 }
 
-export function CompileCustomCode(eCase) {
+export async function CompileCustomCode(eCase) {
   const requestBody = {
     script: eCase.script,
     stdin: eCase.stdin,
     language: "java",
     version: "4"
   };
-  return axios.post('https://localhost:7253/api/Codes', requestBody, {
+  return await axios.post('https://localhost:7253/api/Codes', requestBody, {
     headers: {
       'accept': '*/*',
       'Content-Type': 'application/json'
@@ -69,3 +69,25 @@ export function CompileCustomCode(eCase) {
     });
 }
 
+export async function CompileExamples(eCase) {
+  const requestBody = {
+    id: eCase.id,
+    script: eCase.script,
+    language: "java",
+    version: "4"
+  };
+  return await axios.post('https://localhost:7253/api/Codes/ExecuteExamples', requestBody, {
+    headers: {
+      'accept': '*/*',
+      'Content-Type': 'application/json'
+    }
+  })
+    .then(response => {
+      console.log('La compilación fue:', response.data);
+      return response.data;
+    })
+    .catch(error => {
+      console.error('Hubo un error:', error);
+      return "Error en la compilación";
+    });
+}
