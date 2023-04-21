@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>editor_select_language_version</name>
+   <name>create_exercise</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>32f51475-2a1c-4ff3-8e3f-a1699f121320</testCaseGuid>
+   <testCaseGuid>4495d760-8cc7-4cc1-a0a5-b9b41019705d</testCaseGuid>
 </TestCaseEntity>

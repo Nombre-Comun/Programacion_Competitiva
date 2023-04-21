@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Exercise 1004</name>
+   <tag></tag>
+   <elementGuidId>8dcea1b5-c550-4da7-95f8-3af12f95d652</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/table/tbody/tr[4]/td[6]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ccd94f24-157b-4dbb-84a3-453948e727ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/exercise/1004</value>
+      <webElementGuid>42aa1da6-eff4-4851-9a11-6a90bd0e5076</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Exercise 1004</value>
+      <webElementGuid>02f23005-90fb-468d-9dc5-9573592a7bde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;container&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[4]/td[6]/a[1]</value>
+      <webElementGuid>c3876620-8285-4549-9430-c98655af374b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/table/tbody/tr[4]/td[6]/a</value>
+      <webElementGuid>1ad1f495-f6b2-4f68-bc5d-98aa0f6b6590</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='basic'])[2]/following::a[1]</value>
+      <webElementGuid>7245bbca-a774-4a64-bfd7-95b1d76e26e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='easy'])[2]/following::a[1]</value>
+      <webElementGuid>83503675-0f69-46dc-8a82-69dacbea8fbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/exercise/1004')]</value>
+      <webElementGuid>dccfc757-e0ae-46cd-b705-400334be9349</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[6]/a</value>
+      <webElementGuid>97589e39-e807-46b7-8622-0ba668c09fae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/exercise/1004' and (text() = 'Exercise 1004' or . = 'Exercise 1004')]</value>
+      <webElementGuid>28455312-c870-4392-80d0-44aa11cea67a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

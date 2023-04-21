@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Exercise 1002</name>
+   <tag></tag>
+   <elementGuidId>8568d990-f29d-4ad1-ab8d-201a0a66160a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/table/tbody/tr[2]/td[6]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b9a3f261-a08e-48fe-8254-e1b4e065f977</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/exercise/1002</value>
+      <webElementGuid>ad084c8b-687b-4653-87b5-73b52553087a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Exercise 1002</value>
+      <webElementGuid>4d98281f-19e9-4d90-afe7-a27f72cfd2c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;container&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[2]/td[6]/a[1]</value>
+      <webElementGuid>71824b97-49d5-4f57-a6f3-76514027c166</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/table/tbody/tr[2]/td[6]/a</value>
+      <webElementGuid>8d7a8989-5758-4824-b705-4d0c756c3952</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='basic'])[1]/following::a[1]</value>
+      <webElementGuid>69fe3385-1636-4724-8bc2-30563e199a23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='easy'])[1]/following::a[1]</value>
+      <webElementGuid>66dd2cf8-9833-4ccb-8b22-d344ee041d23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nuevo 2'])[1]/preceding::a[1]</value>
+      <webElementGuid>14c8dc2f-362b-4b8e-80aa-ac43ea6d57a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Print ', &quot;'&quot;, 'xd', &quot;'&quot;, ' for n, n taken from stdin')])[1]/preceding::a[1]</value>
+      <webElementGuid>73589e22-c0eb-46ec-b510-f0e271746439</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/exercise/1002')]</value>
+      <webElementGuid>20eb9581-a357-48ed-b55d-ca5cea10a903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[6]/a</value>
+      <webElementGuid>4d517d77-3d46-446d-a9fd-29e052378675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/exercise/1002' and (text() = 'Exercise 1002' or . = 'Exercise 1002')]</value>
+      <webElementGuid>e63e736b-db2c-4245-94e1-d9bfccee61ef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
