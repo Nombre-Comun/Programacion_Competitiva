@@ -4,13 +4,14 @@ import "ace-builds/src-noconflict/mode-java";
 import "ace-builds/src-noconflict/theme-github";
 import { useEffect } from "react";
 import { CompileCustomCode, CompileExamples } from "../../../services/ExercisesService";
-import { SubmitCodeBtn, TestExamplesCasesBtn, TestInputBtn } from "./buttons/SubmitCodeBtn";
+import OutputCard from "./components/OutputCard";
 
 function Editor(props) {
     const [code, setCode] = useState('');
     const [id, setId] = useState('');
     const [stdin, setStdin] = useState('');
     const [output, setOutput] = useState('');
+    const [examplesVisible, setExamplesVisible] = useState(false);
 
     useEffect(() => {
         setCode(props.solutionTemplate);
@@ -48,7 +49,16 @@ function Editor(props) {
 
         const response = await CompileExamples(eCase);
         setOutput(response);
+        setExamplesVisible(true);
         console.log(response);
+    };
+
+    function handleExamplesVisibles() {
+        if (examplesVisible) {
+            setExamplesVisible(false);
+        } else {
+            setExamplesVisible(true);
+        }
     };
 
     return (
@@ -62,11 +72,19 @@ function Editor(props) {
                 name="UNIQUE_ID_OF_DIV"
                 editorProps={{ $blockScrolling: true }}
             />
+            <button className="btn btn-primary mt-1 mb-1" onClick={handleTestExamples}>Execute</button>
+            <button className="btn btn-secondary mt-1 mb-1 ms-1 me-1" onClick={handleTest}>Execute Custom Code</button>
+            <button className="btn btn-success mt-1 mb-1" onClick={handleTest}>Submit</button>
+            <br />
             <textarea onChange={handleChangeInput} id="input" />
-            <button className="btn btn-secondary" onClick={handleTest}>Execute Custom Code</button>
-            <button className="btn btn-primary" onClick={handleTestExamples}>Execute</button>
-            <button className="btn btn-success" onClick={handleTest}>Submit</button>
-            <pre>{JSON.stringify(output, null, 2)}</pre>
+
+            <br />
+            {examplesVisible ? (
+                <Fragment>
+                    <button className="btn btn-secondary mb-3" onClick={handleExamplesVisibles}>Show</button>
+                    <OutputCard list={output} />
+                </Fragment>) : (<><button className="btn btn-secondary" onClick={handleExamplesVisibles}>Show</button></>)}
+
         </Fragment>
     );
 }

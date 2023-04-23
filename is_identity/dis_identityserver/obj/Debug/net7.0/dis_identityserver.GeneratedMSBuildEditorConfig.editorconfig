@@ -9,141 +9,141 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dis_identityserver
 build_property.RootNamespace = dis_identityserver
-build_property.ProjectDir = C:\Users\camil\OneDrive\Documents\GitHub\Programacion_Competitiva\is_identity\dis_identityserver\
+build_property.ProjectDir = c:\Users\camil\OneDrive\Documents\GitHub\Programacion_Competitiva\is_identity\dis_identityserver\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\camil\OneDrive\Documents\GitHub\Programacion_Competitiva\is_identity\dis_identityserver
+build_property.MSBuildProjectDirectory = c:\Users\camil\OneDrive\Documents\GitHub\Programacion_Competitiva\is_identity\dis_identityserver
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/AccessDenied.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/Login/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/Logout/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/Logout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/Logout/LoggedOut.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Account/Logout/LoggedOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXRcTG9nZ2VkT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/All.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/Consent.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/Consent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxDb25zZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/_ScopeListItem.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Ciba/_ScopeListItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Consent/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Consent/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc2VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Consent/_ScopeListItem.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Consent/_ScopeListItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc2VudFxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Device/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Device/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2aWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Device/Success.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Device/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Device/_ScopeListItem.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Device/_ScopeListItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2aWNlXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Diagnostics/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Diagnostics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/ExternalLogin/Callback.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/ExternalLogin/Callback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXh0ZXJuYWxMb2dpblxDYWxsYmFjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/ExternalLogin/Challenge.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/ExternalLogin/Challenge.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXh0ZXJuYWxMb2dpblxDaGFsbGVuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Grants/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Grants/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JhbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Home/Error/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Home/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxFcnJvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Redirect/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Redirect/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkaXJlY3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/ServerSideSessions/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/ServerSideSessions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmVyU2lkZVNlc3Npb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Shared/_Layout.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Shared/_Nav.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Shared/_Nav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9OYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Shared/_ValidationSummary.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/Shared/_ValidationSummary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/_ViewImports.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/_ViewStart.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Home/Index.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Home/Privacy.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Shared/Error.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/_ViewImports.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/_ViewStart.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Shared/_Layout.cshtml]
+[c:/Users/camil/OneDrive/Documents/GitHub/Programacion_Competitiva/is_identity/dis_identityserver/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8frz6vtfvj
