@@ -70,6 +70,7 @@ export async function CompileCustomCode(eCase) {
 }
 
 export async function CompileExamples(eCase) {
+  console.log("enviando servicio");
   const requestBody = {
     id: eCase.id,
     script: eCase.script,
@@ -77,6 +78,31 @@ export async function CompileExamples(eCase) {
     version: "4"
   };
   return await axios.post('https://localhost:7253/api/Codes/ExecuteExamples', requestBody, {
+    headers: {
+      'accept': '*/*',
+      'Content-Type': 'application/json'
+    }
+  })
+    .then(response => {
+      console.log('La compilación fue:', response.data);
+      return response.data;
+    })
+    .catch(error => {
+      console.error('Hubo un error:', error);
+      return "Error en la compilación";
+    });
+}
+
+export async function CompileTestCases(eCase) {
+  console.log("enviando servicio");
+  const requestBody = {
+    id: eCase.id,
+    script: eCase.script,
+    language: "java",
+    version: "4",
+    idUser: eCase.iduser
+  };
+  return await axios.post('https://localhost:7253/api/Codes/ExecuteTestCases', requestBody, {
     headers: {
       'accept': '*/*',
       'Content-Type': 'application/json'

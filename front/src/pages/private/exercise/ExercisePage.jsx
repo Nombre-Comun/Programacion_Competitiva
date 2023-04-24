@@ -1,16 +1,24 @@
 import { useParams } from "react-router-dom";
 import { GetExercise } from "../../../services/ExercisesService";
-import { Fragment } from "react";
-import AceEditor from "react-ace";
+import { Fragment, useState, useEffect } from "react";
 import "ace-builds/src-noconflict/mode-java";
 import "ace-builds/src-noconflict/theme-github";
 import Navigator from "../../../components/Navigator";
 import Editor from "./Editor";
+import { getAuthenticatedUser } from '../../../config/ConfigIdentity';
 
 function Exercise() {
     const { id } = useParams();
     const exercise = GetExercise(id);
     const examples = exercise.Examples;
+    const [user, setUser] = useState('');
+    useEffect(() => {
+        async function getUser() {
+            const user = await getAuthenticatedUser();
+            setUser(user);
+        }
+        getUser();
+    }, []);
     return (
         <Fragment>
             <Navigator />
@@ -47,7 +55,9 @@ function Exercise() {
                 <div className="col">
                     <div className="card">
                         <div className="card-body">
-                            <Editor solutionTemplate={exercise.SolutionTemplate} id={id}/>
+                            {user ? (
+                            <Editor solutionTemplate={exercise.SolutionTemplate} id={id} iduser={user.profile.sub}/>
+                            ) : (<></>)}
                         </div>
                     </div>
                 </div>

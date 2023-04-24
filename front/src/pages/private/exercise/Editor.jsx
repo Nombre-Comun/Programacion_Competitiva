@@ -3,7 +3,7 @@ import AceEditor from "react-ace";
 import "ace-builds/src-noconflict/mode-java";
 import "ace-builds/src-noconflict/theme-github";
 import { useEffect } from "react";
-import { CompileCustomCode, CompileExamples } from "../../../services/ExercisesService";
+import { CompileCustomCode, CompileExamples, CompileTestCases } from "../../../services/ExercisesService";
 import OutputCard from "./components/OutputCard";
 
 function Editor(props) {
@@ -27,6 +27,7 @@ function Editor(props) {
     };
 
     const handleTest = async () => {
+        console.log("Enviando");
         const eCase = {
             script: code,
             stdin: stdin
@@ -38,7 +39,7 @@ function Editor(props) {
         setOutput(response);
         console.log(response);
     };
-
+    
     const handleTestExamples = async () => {
         const eCase = {
             script: code,
@@ -53,6 +54,19 @@ function Editor(props) {
         console.log(response);
     };
 
+    const handleTest_TestCases = async () => {
+        const eCase = {
+            iduser: props.iduser,
+            script: code,
+            id: id
+        };
+
+        alert("Enviando " + eCase.script);
+
+        const response = await CompileTestCases(eCase);
+        console.log(response);
+    };
+
     function handleExamplesVisibles() {
         if (examplesVisible) {
             setExamplesVisible(false);
@@ -63,6 +77,7 @@ function Editor(props) {
 
     return (
         <Fragment>
+            <p>{props.iduser}</p>
             <AceEditor
                 id="code"
                 value={code}
@@ -74,7 +89,7 @@ function Editor(props) {
             />
             <button className="btn btn-primary mt-1 mb-1" onClick={handleTestExamples}>Execute</button>
             <button className="btn btn-secondary mt-1 mb-1 ms-1 me-1" onClick={handleTest}>Execute Custom Code</button>
-            <button className="btn btn-success mt-1 mb-1" onClick={handleTest}>Submit</button>
+            <button className="btn btn-success mt-1 mb-1" onClick={handleTest_TestCases}>Submit</button>
             <br />
             <textarea onChange={handleChangeInput} id="input" />
 

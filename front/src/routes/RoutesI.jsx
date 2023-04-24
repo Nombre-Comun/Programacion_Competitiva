@@ -30,7 +30,14 @@ function RoutesI() {
         <Route path="/logout" element={<LogoutPage />} />
         <Route path="/callback" element={<Callback />} />
         <Route path='/exercises' element={<ExercisesPage />} />
-        <Route path="/exercise/:id" element={<Exercise />} />
+        <Route
+          path="//exercise/:id"
+          element={
+            <PrivateRoute isAuthenticated={user}>
+              <Exercise />
+            </PrivateRoute>
+          } 
+        />
         <Route
           path="/editor"
           element={
